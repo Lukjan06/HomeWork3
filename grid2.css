@@ -1,0 +1,28 @@
+.main{display: grid|inline-grid;
+    grid-template-areas:
+    "step yoga fitness"
+    gap: 16px;}
+.step{
+    grid-area: step;
+    background-color: yellow;}
+.yoga{
+    grid-area: yoga;
+    background-color: orange;}
+.fitness{
+    grid-area: fitness;
+    background-color: lightgreen}
+.about{display: grid|inline-grid;
+    grid-template-areas:
+    "zoj sport beauty"
+    grid-column-gap: 16px;
+    margin: 15px;}
+.zoj{
+    grid-area: zoj;
+    background-color: rgb(92, 177, 206);}
+.sport{
+    grid-area: sport;
+    background-color: blue;
+    color: white;}
+.beauty{
+    grid-area: beauty;
+    background-color: aqua;}
