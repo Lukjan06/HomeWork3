@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif}
+.header{
+    background-color: rgb(232, 247, 21); 
+    color: blue;
+    viewport-fit: 100vw; 
+    height: 100px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;}
+h1{text-align: center;}
+nav{text-align: center;}
+.footer{
+    background-color: coral;
+    viewport-fit: 100vw;
+    height: 200px;
+    align-items: center;
+    padding-top: 50px;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;}
+h2{color: green;
+    text-align: center;}
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+p{font-size: 1vw;
+    text-align: center;}
+.main div{
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;}
+.about div{
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;} 
+.contact{
+    padding-left: 50%;}
+
+
